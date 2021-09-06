@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('../image/Bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    text-transform: uppercase;
+    transition: all 1s ease;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    width: 15%;
+    text-align: center;
+    color: rgb(212, 142, 11);
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 1px 5px black;
+    /* color: #00b894; */
+    /* background: red; */
+}
+.logo::after{
+    
+    content: 'lambda';
+    font-size: 7px;
+    color: rgb(212, 142, 11);
+    border: 1px solid rgb(212, 142, 11);
+    border-radius: 8px;
+    padding: 2px;
+    position: relative;
+    left: 45px;
+    bottom: 35px;
+}
+nav .menu{
+    width: 50%;
+    margin: 10px;
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-around;
+    /* cursor: pointer; */
+}
+nav .menu a:hover{
+    color: rgb(51, 51, 245);
+    cursor: pointer;
+}
+nav .menu a{
+    /* width: 25%; */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#documentation{
+    color: rgb(212, 142, 11);
+    
+}
+.doc{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.welcome{
+    font-size: 20px;
+}
+
+@keyframes changetext{
+    0%{content:"Subjects";}
+    5%{content:"Government";}
+    10%{content:"Religion";}
+    15%{content:"Solar System";}
+    20%{content:"Disease";}
+    25%{content:"Fauna";}
+    30%{content:"Flora";}
+    35%{content:"Capital City";}
+    40%{content:"Lakes";}
+    45%{content:"Mountains";}
+    50%{content:"Websites";}
+    55%{content:"Courses";}
+    65%{content:"Skills";}
+    70%{content:"State";}
+    75%{content:"Empire";}
+    80%{content:"Golden Age";}
+    85%{content:"Revolution";}
+    90%{content:"Assassinations";}
+    95%{content:"Languages";}
+    100%{content:"Currency";}
+    
+}
+footer{
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.contact a{
+    text-decoration: none;
+    margin: 7px;
+    justify-content: center;
+}
+.contact {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.fiverr{
+    font-weight: 900;
+    color: rgb(4, 87, 4);
+}
+.fiverr::after{
+    content: '.';
+    color: black;
+    font-size: 70px;
+}
+.linkedIn{
+    font-weight: 900;
+    color: blue;
+}
+.linkedIn::after{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    content: 'in';
+    font-weight: 900;
+    padding: 0px 4px;
+}
+.YouTube{
+    font-weight: 900;
+    color: black;
+}
+.YouTube::after{
+    content: 'Tube';
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 4px;
+}
+.info1{
+    padding: 4px;
+    text-decoration: none;
+}
+.info1 a{
+    color: white;
+    text-decoration: none;
+    margin: 10px 15px;
+    font-weight: 800;
+    font-size: smaller;
+}
+.info2{
+    /* color: white; */
+    margin: 4px;
+    padding: 4px;
+}
+.info2 a{
+    font-weight: 800;
+    margin: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+.copyright{
+padding: 40px;
+
+}
+.title{
+display: flex;
+flex-direction: column;
+/* border: 2px solid black; */
+width: 90%;
+height: 90%;
+padding: 40px;
+border-radius: 4px;
+box-shadow: 0px 0px 20px white;
+background-color: rgb(0, 0, 0,0.3);
+}
+.title a{
+text-decoration: none;
+color: white;
+
+}
+.title a:nth-child(2n){
+    color: rgb(212, 142, 11);
+    /* text-shadow: 0px 0px 3px rgb(212, 142, 11); */
+}
+.row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid black; */
+    /* margin: 5%; */
+    /* background-color: rgb(212, 142, 11); */
+    
+    
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid black; */
+    margin: 5%;
+    
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 90%;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 20px white;
+    background-color: rgb(0, 0, 0,0.3);
+    /* background-color: rgb(212, 142, 11); */
+        
+
+    
+}
